@@ -1,0 +1,17 @@
+{
+  "name": "Polygot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "node main.test.js"
+  },
+  "author": "windyskies",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "readline-sync": "^1.4.10"
+  }
+}
