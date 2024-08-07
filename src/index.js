@@ -1,6 +1,9 @@
+import allowSlang from "../main.js"
+
 export async function wget(token) {
     //await console.log("token", token);
-    return await fetch("https://api.tureng.com/v1/dictionary/enfr/" + token)
+    //return await fetch("https://api.tureng.com/v1/dictionary/enfr/" + token)
+    return await fetch("https://api.tureng.com/v1/dictionary/entr/" + token)
         .then(res => res.json())
 }
 
@@ -14,7 +17,7 @@ export async function wapi(d) {
 
 export async function debug(token) {
     //await console.log("token", token);
-    return await fetch("https://api.tureng.com/v1/dictionary/enfr/" + token)
+    return await fetch("https://api.tureng.com/v1/dictionary/entr/" + token)
         .then(res => res.json())
         .then(d => d.IsFound)
 }

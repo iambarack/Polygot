@@ -11,6 +11,11 @@
   "type": "module",
   "license": "MIT",
   "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "cli-table": "^0.3.11",
+    "console.table": "^0.10.0",
+    "easy-table": "^1.2.0",
     "inquirer": "^9.2.12",
     "readline-sync": "^1.4.10"
   }
